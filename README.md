@@ -1,1 +1,2 @@
-# HotelManagment
+# HotelManagment...
+Rules to follow:
