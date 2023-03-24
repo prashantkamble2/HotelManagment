@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "userName": "prahsant",
+      "userMobNo": "9930954748",
+      "userEmail": "abc@gmail.com",
+      "gender": "Male",
+      "userPassword": "123",
+      "userCheck": true,
+      "id": 1
+    },
+    {
+      "userName": "prahsant",
+      "userMobNo": "9930954748",
+      "userEmail": "abc@gmail.com",
+      "gender": "Male",
+      "userPassword": "123",
+      "userCheck": true,
+      "id": 2
+    },
+    {
+      "userName": "Priya",
+      "userMobNo": "9930954748",
+      "userEmail": "priya@gmail.com",
+      "gender": "Female",
+      "userPassword": "priya1",
+      "userCheck": true,
+      "id": 3
+    },
+    {
+      "userName": "Pramod",
+      "userMobNo": "8097568774",
+      "userEmail": "pramod@gmail.com",
+      "gender": "Male",
+      "userPassword": "pramod1",
+      "userCheck": true,
+      "id": 4
+    },
+    {
+      "userName": "Sachin",
+      "userMobNo": "7859624189",
+      "userEmail": "sachin@yahoo.com",
+      "gender": "Male",
+      "userPassword": "sachin1",
+      "userCheck": true,
+      "id": 5
+    }
+  ]
+}

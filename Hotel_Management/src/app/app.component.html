@@ -1,28 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" >
+  <div class="container-fluid">
+    <button type="button" class="btn btn-secondary btn-lg">Sweet Home Hotel</button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button button type="button" class="btn btn-primary" (click)="journy('home')">Home</button>
+        </li>
+        <li class="nav-item">
+          <button button type="button" class="btn btn-primary" (click)="journy('admin')">Admin</button>
+        </li>
+        <li class="nav-item">
+          <button button type="button" class="btn btn-primary" (click)="journy('user')">User</button>
+        </li>
+        <li class="nav-item">
+          <button button type="button" class="btn btn-primary" (click)="journy('owner')">Owner</button>
+        </li>
 
-<div >
-
-<button (click)="journy('admin')">Admin</button>
-<button (click)="journy('user')">User</button>
-<button (click)="journy('owner')">Owner</button>
-
- 
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </ul>
+    </div>
+  </div>
+</nav>
 <router-outlet></router-outlet>

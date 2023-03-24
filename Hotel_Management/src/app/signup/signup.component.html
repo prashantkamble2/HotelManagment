@@ -1,0 +1,36 @@
+<p>signup works!</p>
+<button mat-button color="warn" routerLink="/user/userlanding">Back</button>
+
+<div class="main">
+    <form [formGroup]="signUpForm!" class="form-container" autocomplete="off">
+
+        <label for="">Enter Name:</label> <br>
+
+        <input type="text" placeholder="Enter your name" formControlName="userName"> <br>
+
+        <!-- <span *ngIf="!signUpForm.get('Name')?.touched">Enter your name</span> <br> -->
+
+        <label for="">MobNo</label> <br>
+
+        <input type="text" formControlName="userMobNo"> <br>
+
+        <label for="">Email</label> <br>
+
+        <input type="text" formControlName="userEmail"> <br>
+
+        <label for="">Password</label> <br>
+
+        <input type="password" formControlName="userPassword"> <br>
+
+        <input type="radio" formControlName="gender" value="Male">Male
+        <input type="radio" formControlName="gender" value="Female">Female <br>
+
+        <input type="checkbox" name="" id="" formControlName="userCheck"> T&C <br>
+
+        <button [disabled]="signUpForm.invalid" (click)="postUserData(signUpForm.value)">Submit</button> <br>
+
+        <div>Already have member?<a routerLink="/signin"> Signin here </a> </div>
+
+    </form>
+
+</div>

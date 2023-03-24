@@ -8,19 +8,23 @@ import { Route, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'Hotel_Management';
-  constructor(private router:Router){}
+  image = '/assets/pic/Main_Hotel.jpg'
 
-  journy(journy:string){
+  constructor(private router: Router) { }
 
-    if( journy=='admin'){
+  journy(journy: string) {
+
+    if (journy == 'admin') {
       this.router.navigateByUrl('/admin')
     }
-    else if( journy=='user'){
-      this.router.navigateByUrl('/user')
+    else if (journy == 'user') {
+      this.router.navigateByUrl('/user/userlanding')
     }
-    else 
+    else if (journy == 'owner')
       this.router.navigateByUrl('/owner')
-    
+
+    else this.router.navigateByUrl('/home')
+
 
   }
 }

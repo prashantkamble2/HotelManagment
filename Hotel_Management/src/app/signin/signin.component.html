@@ -1,0 +1,27 @@
+<p>signin works!</p>
+<button type="button" class="btn btn-info" routerLink="/user/userlanding">Back</button>
+<div class="main">
+
+
+<form [formGroup]="signInForm" autocomplete="off">
+
+    <label for="">Enter your name</label> <br>
+
+    <input type="text" placeholder="Enter your name" formControlName="userName"> <br>
+
+    <label for="">Enter your password</label> <br>
+
+    <input type="text" formControlName="userPassword"> <br>
+
+
+     <button [disabled]="signInForm.invalid" (click)="submit()">sign In</button>
+
+
+
+
+
+    
+</form>
+
+
+</div>
